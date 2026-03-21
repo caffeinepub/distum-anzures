@@ -167,18 +167,6 @@ export default function Footer() {
               )}
             </p>
 
-            {/* Instagram Follow Button */}
-            <a
-              href="https://www.instagram.com/distum.cdmx/"
-              target="_blank"
-              rel="noopener noreferrer"
-              data-ocid="footer.link"
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gold text-gold text-xs font-bold tracking-wide hover:bg-gold hover:text-navy-deep transition-all duration-300 mb-4"
-            >
-              <Instagram size={14} />
-              {t("Síguenos en Instagram", "Follow us on Instagram")}
-            </a>
-
             <div className="flex gap-3">
               <a
                 href="tel:+5215521864824"
@@ -186,6 +174,15 @@ export default function Footer() {
                 aria-label="Phone"
               >
                 <Phone size={18} />
+              </a>
+              <a
+                href="https://www.instagram.com/distum.cdmx/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-white transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram size={18} />
               </a>
             </div>
           </div>
