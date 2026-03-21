@@ -65,15 +65,6 @@ export default function Navbar({ onBrochureClick: _onBrochureClick }: Props) {
 
         {/* Right actions */}
         <div className="hidden md:flex items-center gap-3">
-          <a
-            href="https://wa.me/5215512345678?text=Hola%2C%20estoy%20interesado%20en%20Distum%20Anzures%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n."
-            target="_blank"
-            rel="noopener noreferrer"
-            data-ocid="nav.primary_button"
-            className="btn-gold px-4 py-2 rounded-full text-xs font-bold tracking-wider"
-          >
-            {t("CONTACTAR", "CONTACT US")}
-          </a>
           <button
             type="button"
             onClick={toggle}
@@ -115,16 +106,6 @@ export default function Navbar({ onBrochureClick: _onBrochureClick }: Props) {
               </a>
             ))}
             <div className="pt-2 flex gap-3">
-              <a
-                href="https://wa.me/5215512345678?text=Hola%2C%20estoy%20interesado%20en%20Distum%20Anzures%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n."
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setMobileOpen(false)}
-                data-ocid="nav.secondary_button"
-                className="btn-gold flex-1 py-2.5 rounded-full text-xs font-bold tracking-wider text-center"
-              >
-                {t("CONTACTAR", "CONTACT US")}
-              </a>
               <button
                 type="button"
                 onClick={toggle}
