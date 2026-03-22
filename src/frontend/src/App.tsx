@@ -8,6 +8,7 @@ import FAQSection from "./components/FAQSection";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import IntentSection from "./components/IntentSection";
+import InvestmentCalculatorSection from "./components/InvestmentCalculatorSection";
 import LocationSection from "./components/LocationSection";
 import Navbar from "./components/Navbar";
 import NeighborhoodSection from "./components/NeighborhoodSection";
@@ -63,6 +64,7 @@ function AppInner() {
         <HeroSection onBrochureClick={() => setBrochureOpen(true)} />
         <StatsSection />
         <IntentSection />
+        <InvestmentCalculatorSection />
         <PropertyExplorer />
         <NeighborhoodSection />
         <AmenitiesSection />
